@@ -40,7 +40,7 @@ const _layout = () => {
         tabBarStyle: {
           backgroundColor: "#0F0D23",
           borderRadius: 50,
-          marginHorizontal: 20,
+          marginHorizontal: 111,
           paddingHorizontal: 11,
           marginBottom: 36,
           height: 53,
@@ -69,7 +69,7 @@ const _layout = () => {
             TabIcon({ focused, icon: icons.search, title: "Search" }),
         }}
       />
-      <Tabs.Screen
+      {/* <Tabs.Screen
         name="saved"
         options={{
           title: "Saved",
@@ -86,7 +86,7 @@ const _layout = () => {
           tabBarIcon: ({ focused }) =>
             TabIcon({ focused, icon: icons.person, title: "Profile" }),
         }}
-      />
+      /> */}
     </Tabs>
   );
 };
